@@ -4,7 +4,7 @@ import { doctors } from "../assets/assets";
 
 export const AppContext = createContext()
 
-const AppContextProvider = () => {
+const AppContextProvider = (props) => {
     const value = {
         doctors
     }
